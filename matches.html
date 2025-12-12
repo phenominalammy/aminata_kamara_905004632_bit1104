@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sierra Leone Football - Matches</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <h1>Sierra <span>Leone</span> Football</h1>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="players.html">Players</a></li>
+                    <li><a href="matches.html" class="active">Matches</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Matches Header -->
+    <section class="matches-header">
+        <div class="container">
+            <h2>Match Schedule & Results</h2>
+            <p>Follow the Sierra Leone national team throughout their competitions and friendlies.</p>
+            <div class="match-filter">
+                <select id="competitionFilter">
+                    <option value="all">All Competitions</option>
+                    <option value="afcon">Africa Cup of Nations</option>
+                    <option value="friendly">Friendly Matches</option>
+                    <option value="wafu">WAFU Tournament</option>
+                    <option value="qualifiers">World Cup Qualifiers</option>
+                </select>
+                <select id="yearFilter">
+                    <option value="all">All Years</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <!-- Matches Grid -->
+    <section class="matches-container">
+        <div class="container">
+            <div class="matches-grid">
+                <!-- Match 1 -->
+                <div class="match-card" data-competition="afcon" data-year="2023">
+                    <div class="match-info">
+                        <div class="match-teams">
+                            <div>
+                                <h4>Sierra Leone</h4>
+                                <p>Home</p>
+                            </div>
+                            <div class="match-result">2-1</div>
+                            <div>
+                                <h4>Nigeria</h4>
+                                <p>Away</p>
+                            </div>
+                        </div>
+                        <p class="match-date">June 10, 2023 - Africa Cup of Nations Qualifier</p>
+                        <p><strong>Venue:</strong> National Stadium, Freetown</p>
+                        <p><strong>Goals:</strong> Kei Kamara (2)</p>
+                    </div>
+                </div>
+                <!-- Match 2 -->
+                <div class="match-card" data-competition="friendly" data-year="2023">
+                    <div class="match-info">
+                        <div class="match-teams">
+                            <div>
+                                <h4>Ghana</h4>
+                                <p>Home</p>
+                            </div>
+                            <div class="match-result">0-0</div>
+                            <div>
+                                <h4>Sierra Leone</h4>
+                                <p>Away</p>
+                            </div>
+                        </div>
+                        <p class="match-date">March 24, 2023 - Friendly Match</p>
+                        <p><strong>Venue:</strong> Accra Sports Stadium</p>
+                        <p><strong>Highlights:</strong> Strong defensive performance</p>
+                    </div>
+                </div>
+                <!-- Match 3 -->
+                <div class="match-card" data-competition="wafu" data-year="2023">
+                    <div class="match-info">
+                        <div class="match-teams">
+                            <div>
+                                <h4>Sierra Leone</h4>
+                                <p>Home</p>
+                            </div>
+                            <div class="match-result">3-0</div>
+                            <div>
+                                <h4>Liberia</h4>
+                                <p>Away</p>
+                            </div>
+                        </div>
+                        <p class="match-date">February 15, 2023 - WAFU Tournament</p>
+                        <p><strong>Venue:</strong> National Stadium, Freetown</p>
+                        <p><strong>Goals:</strong> Koroma, Kargbo, Sesay</p>
+                    </div>
+                </div>
+                <!-- Match 4 -->
+                <div class="match-card" data-competition="qualifiers" data-year="2022">
+                    <div class="match-info">
+                        <div class="match-teams">
+                            <div>
+                                <h4>Senegal</h4>
+                                <p>Home</p>
+                            </div>
+                            <div class="match-result">2-1</div>
+                            <div>
+                                <h4>Sierra Leone</h4>
+                                <p>Away</p>
+                            </div>
+                        </div>
+                        <p class="match-date">November 12, 2022 - World Cup Qualifier</p>
+                        <p><strong>Venue:</strong> Stade Léopold Sédar Senghor</p>
+                        <p><strong>Goal:</strong> Kei Kamara</p>
+                    </div>
+                </div>
+                <!-- Match 5 -->
+                <div class="match-card" data-competition="afcon" data-year="2022">
+                    <div class="match-info">
+                        <div class="match-teams">
+                            <div>
+                                <h4>Sierra Leone</h4>
+                                <p>Home</p>
+                            </div>
+                            <div class="match-result">1-1</div>
+                            <div>
+                                <h4>Ivory Coast</h4>
+                                <p>Away</p>
+                            </div>
+                        </div>
+                        <p class="match-date">September 3, 2022 - Africa Cup of Nations</p>
+                        <p><strong>Venue:</strong> National Stadium, Freetown</p>
+                        <p><strong>Goal:</strong> Augustus Kargbo</p>
+                    </div>
+                </div>
+                <!-- Match 6 -->
+                <div class="match-card" data-competition="friendly" data-year="2022">
+                    <div class="match-info">
+                        <div class="match-teams">
+                            <div>
+                                <h4>Sierra Leone</h4>
+                                <p>Home</p>
+                            </div>
+                            <div class="match-result">2-0</div>
+                            <div>
+                                <h4>Togo</h4>
+                                <p>Away</p>
+                            </div>
+                        </div>
+                        <p class="match-date">June 5, 2022 - Friendly Match</p>
+                        <p><strong>Venue:</strong> National Stadium, Freetown</p>
+                        <p><strong>Goals:</strong> Kei Kamara, Alhassan Koroma</p>
+                    </div>
+                </div>
+                <!-- Match 7 (Upcoming) -->
+                <div class="match-card" data-competition="afcon" data-year="2023">
+                    <div class="match-info">
+                        <div class="match-teams">
+                            <div>
+                                <h4>Sierra Leone</h4>
+                                <p>Away</p>
+                            </div>
+                            <div class="match-result">-</div>
+                            <div>
+                                <h4>Guinea-Bissau</h4>
+                                <p>Home</p>
+                            </div>
+                        </div>
+                        <p class="match-date">September 9, 2023 - AFCON Qualifier (Upcoming)</p>
+                        <p><strong>Venue:</strong> Estádio 24 de Setembro</p>
+                        <p><strong>Time:</strong> 16:00 GMT</p>
+                    </div>
+                </div>
+                <div class="match-card" data-competition="afcon" data-year="2023">
+                    <div class="match-info">
+                        <div class="match-teams">
+                            <div>
+                                <h4>Sierra Leone</h4>
+                                <p>Home</p>
+                            </div>
+                            <div class="match-result">-</div>
+                            <div>
+                                <h4>Nigeria</h4>
+                                <p>Away</p>
+                            </div>
+                        </div>
+                        <p class="match-date">October 12, 2023 - AFCON Qualifier (Upcoming)</p>
+                        <p><strong>Venue:</strong> National Stadium, Freetown</p>
+                        <p><strong>Time:</strong> 17:00 GMT</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Sierra <span>Leone</span> Football</h3>
+                    <p>The official website for Sierra Leone national football team news, players, and matches.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="players.html">Players</a></li>
+                        <li><a href="matches.html">Matches</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Sierra Leone Football Federation. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('mobileMenuBtn').addEventListener('click', function() {
+            document.getElementById('mainNav').classList.toggle('active');
+        });
+        
+        document.getElementById('competitionFilter').addEventListener('change', filterMatches);
+        document.getElementById('yearFilter').addEventListener('change', filterMatches);
+        
+        function filterMatches() {
+            const competition = document.getElementById('competitionFilter').value;
+            const year = document.getElementById('yearFilter').value;
+            
+            document.querySelectorAll('.match-card').forEach(match => {
+                const matchCompetition = match.getAttribute('data-competition');
+                const matchYear = match.getAttribute('data-year');
+                
+                const showCompetition = (competition === 'all' || matchCompetition === competition);
+                const showYear = (year === 'all' || matchYear === year);
+                
+                if (showCompetition && showYear) {
+                    match.style.display = 'block';
+                } else {
+                    match.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>

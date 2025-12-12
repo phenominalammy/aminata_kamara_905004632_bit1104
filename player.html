@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sierra Leone Football - Players</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <h1>Sierra <span>Leone</span> Football</h1>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="player.html" class="active">Players</a></li>
+                    <li><a href="matches.html">Matches</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="players-header">
+        <div class="container">
+            <h2>Meet Our Players</h2>
+            <p>Get to know the talented athletes who represent Sierra Leone on the international stage.</p>
+            <div class="player-filter">
+                <button class="filter-btn active" data-filter="all">All Players</button>
+                <button class="filter-btn" data-filter="goalkeeper">Goalkeepers</button>
+                <button class="filter-btn" data-filter="defender">Defenders</button>
+                <button class="filter-btn" data-filter="midfielder">Midfielders</button>
+                <button class="filter-btn" data-filter="forward">Forwards</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="players-container">
+        <div class="container">
+            <div class="players-grid">
+                <div class="player-card" data-position="goalkeeper">
+                    <div class="player-img slash-effect">
+                        <img src="mohamed k.png" alt="Mohamed Kamara">
+                    </div>
+                    <div class="player-info">
+                        <h3>Mohamed Kamara</h3>
+                        <span class="player-position">Goalkeeper</span>
+                        <p>Captain with exceptional reflexes and leadership. Over 50 international caps for Sierra Leone.</p>
+                        <div class="player-stats">
+                            <p><strong>Club:</strong> East End Lions</p>
+                            <p><strong>Age:</strong> 28</p>
+                            <p><strong>Caps:</strong> 52</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="player-card" data-position="forward">
+                    <div class="player-img slash-effect">
+                        <img src="kk.png" alt="Kei Kamara">
+                    </div>
+                    <div class="player-info">
+                        <h3>Kei Kamara</h3>
+                        <span class="player-position">Forward</span>
+                        <p>All-time leading goal scorer for Sierra Leone. Known for his aerial ability and finishing.</p>
+                        <div class="player-stats">
+                            <p><strong>Club:</strong> Free Agent</p>
+                            <p><strong>Age:</strong> 38</p>
+                            <p><strong>Caps:</strong> 39</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="player-card" data-position="midfielder">
+                    <div class="player-img slash-effect">
+                        <img src="alhassan k.png" alt="Alhassan Koroma">
+                    </div>
+                    <div class="player-info">
+                        <h3>Alhassan Koroma</h3>
+                        <span class="player-position">Midfielder</span>
+                        <p>Creative playmaker with excellent vision and passing range. Controls the tempo of the game.</p>
+                        <div class="player-stats">
+                            <p><strong>Club:</strong> Bo Rangers</p>
+                            <p><strong>Age:</strong> 25</p>
+                            <p><strong>Caps:</strong> 22</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="player-card" data-position="defender">
+                    <div class="player-img slash-effect">
+                        <img src="d sesay.png" alt="David Sesay">
+                    </div>
+                    <div class="player-info">
+                        <h3>David Sesay</h3>
+                        <span class="player-position">Defender</span>
+                        <p>Solid center-back with strong tackling and aerial dominance. A rock in the defense.</p>
+                        <div class="player-stats">
+                            <p><strong>Club:</strong> Kamboi Eagles</p>
+                            <p><strong>Age:</strong> 27</p>
+                            <p><strong>Caps:</strong> 31</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="player-card" data-position="forward">
+                    <div class="player-img slash-effect">
+                        <img src="a.png" alt="Augustus Kargbo">
+                    </div>
+                    <div class="player-info">
+                        <h3>Augustus Kargbo</h3>
+                        <span class="player-position">Forward</span>
+                        <p>Pacey winger with excellent dribbling skills. Known for cutting inside and scoring.</p>
+                        <div class="player-stats">
+                            <p><strong>Club:</strong> Mighty Blackpool</p>
+                            <p><strong>Age:</strong> 23</p>
+                            <p><strong>Caps:</strong> 15</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="player-card" data-position="midfielder">
+                    <div class="player-img slash-effect">
+                        <img src="jo.png" alt="John Kamara">
+                    </div>
+                    <div class="player-info">
+                        <h3>John Kamara</h3>
+                        <span class="player-position">Midfielder</span>
+                        <p>Defensive midfielder who breaks up opposition attacks and starts counter-attacks.</p>
+                        <div class="player-stats">
+                            <p><strong>Club:</strong> FC Johansen</p>
+                            <p><strong>Age:</strong> 29</p>
+                            <p><strong>Caps:</strong> 41</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Sierra <span>Leone</span> Football</h3>
+                    <p>The official website for Sierra Leone national football team news, players, and matches.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="players.html">Players</a></li>
+                        <li><a href="matches.html">Matches</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Sierra Leone Football Federation. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('mobileMenuBtn').addEventListener('click', function() {
+            document.getElementById('mainNav').classList.toggle('active');
+        });
+        
+        document.querySelectorAll('.filter-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                document.querySelectorAll('.filter-btn').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                
+                this.classList.add('active');
+                
+                const filter = this.getAttribute('data-filter');
+                
+                document.querySelectorAll('.player-card').forEach(player => {
+                    if (filter === 'all' || player.getAttribute('data-position') === filter) {
+                        player.style.display = 'block';
+                    } else {
+                        player.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
